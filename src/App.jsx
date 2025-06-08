@@ -8,7 +8,7 @@ import Projectspage from "./myporto/Projectspage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/myportofolio">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
