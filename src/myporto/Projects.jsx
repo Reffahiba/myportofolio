@@ -128,7 +128,7 @@ const Projects = () => {
         <h2 className="text-3xl font-bold text-center mb-8">Daftar Tugas</h2>
         <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             {projectsData.map(({ title, description, resources }, idx) => (
-            <div key={idx} className="p-6 rounded-xl shadow-lg glassmorphism-card hover-scale-effect">
+            <div key={idx} className="p-6 rounded-xl shadow-xl glassmorphism-card hover-scale-effect">
                 <h3 className="text-xl font-bold mb-2">{title}</h3>
                 <p className="mb-4">{description}</p>
                 <ul className="list-disc list-inside space-y-1">
